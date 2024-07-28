@@ -1,0 +1,3 @@
+uid ,name   ,class ,marks, status
+69 , granth , 11 a , 69  , idn
+11 , ujjwal , 11 a , 98  , smart
