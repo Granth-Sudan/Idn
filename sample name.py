@@ -14,8 +14,9 @@ while x!=0:
    for line in f:
     if b in line:
      print(line)
-    else:
-      print("there is a typo or there is no entry")
+ #    else:
+ #     c="there is a typo or there is no entry"
+ #     print(c)
  if (a=="-m" or a=="make"):      #make
    with open("file.txt","a") as f:
      new=input("id:")
@@ -41,7 +42,8 @@ while x!=0:
      for line in lines:
       if line.find(inp)==-1:
         fw.write(line)
-        print("deleted")
+        c= inp ,"is deleted"
+        print(c)
           
  if (a=="gg" or a=="group"):  #Easter egg
   print("conributors are,'','','','','',")
